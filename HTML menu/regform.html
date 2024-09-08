@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <style>
+        body{
+            background-color: rgb(35, 14, 49);
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            
+        }
+    
+    </style>
+    <body>
+        <h2 style="text-align: center;">Registration Form</h2>
+        <p style="text-align: center;">Please fill out this form with the required information</p>
+        <br>
+  
+        <div class="name">
+         <form>
+             <label for="name">Enter Your First Name:</label><br />
+             <input type="name" id="name" name="name" input size="55">
+         </form>
+
+         <form>
+             <label for="name">Enter Your Last Name:</label><br />
+             <input type="name" id="name" name="name" input size="55">
+         </form>
+
+         <form>
+             <label for="email">Enter Your Email:</label><br />
+             <input type="email" id="email" name="email" input size="55">
+         </form>
+
+         <form>
+             <label for="password">Create a New Password:</label><br />
+             <input type="password" id="password" name="password" input size="55">
+         </form>
+         <br>
+
+         <hr>
+        </div>
+
+        <div class="accounts">
+        <label for="Account type">Account type (required):</label><br>
+        <br>
+        <input type="radio"value="Professional"name="Account type">
+        <label for="Account Type">Professional</label><br>
+        <input type="radio"value="Business"name="Account type">
+        <label for="Business">Business</label><br>
+        <br>
+        <hr>
+        <br>
+        <div class="profile">
+           <label for="profile picture">Upload a profile picture:</label><br>
+           <input type="file" id="profile picture">
+        </div>
+        <br>
+
+        <div class="age">
+            <label for="age">Input your age (years):</label><br />
+            <input type="age" id="age" name="age" input size="55">
+        </div>
+          <br>
+        <div>
+            <label for="how heard">How did you hear about us?</label><br />
+            <select>
+             <option value="Friends Recommendation">Friends Recommendation</option>
+             <option value="Advertisement">Advertisement</option>
+             <option value="Previous Customer">Previous Customer</option>
+             <option value="Socila Media Post">Socila Media Post</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="bio">Provide a bio</label><br />
+            <textarea id="bio" name="bio"></textarea><br>
+        </div>
+             <br>
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">I accept the terms and conditions</label><br>
+
+            <br>
+            <button>Submit</button>
+        </div>       
+    </body>
+</html>

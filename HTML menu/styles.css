@@ -1,0 +1,39 @@
+.menu {
+    background-color: rgb(189, 175, 175);
+    padding: 30px;
+    margin: auto;
+    border: 5px;
+    width: 400px;
+
+}
+.price{
+    float: right;
+}
+
+.name {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius:5px ;
+}
+
+input[type="Name"]
+input[type="Email"]
+input[type="Password"]{
+    width: 200;
+    padding: 10px;
+    margin:auto ;
+    border: none;
+    border-radius: 1px;
+    background-color: #f4edf9
+}
+
+
+
+
+.accounts{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
