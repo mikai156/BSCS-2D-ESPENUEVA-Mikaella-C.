@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+/*Container */
+.container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    border: 1px solid rgb(29, 77, 61);
+    margin: auto;
+    margin-top: 50px;
+ 
+}
+
+/*Flexbox */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background: whitesmoke;
+    font-family: sans-serif;
+
+}
+
+.form h4{
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin: 40px;
+
+}
+
+.username{
+    padding: 12px;
+    width: 65%;
+    margin: 5px;
+    border: 1px solid black;
+    outline: none;
+
+}
+
+.email{
+    padding: 12px;
+    width: 65%;
+    margin: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.password{
+    padding: 12px;
+    width: 65%;
+    margin: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+
+
+
+#submit{
+    padding: 12px  30px;
+    width: 65%;
+    margin-top: 5px;
+    background-color: rgb(66, 128, 107);
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(215, 232, 232);
+    
+}
+
+/* right-pannel */
+.right-pannel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+   
+}
+
+.right-pannel img{
+    width: 480px;
+    height: 495px;
+    padding: 12px;
+
+}
+
+
